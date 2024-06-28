@@ -476,6 +476,9 @@ body {
       &-image {
         width: 5rem;
       }
+      &:nth-of-type(2) .testimonial-image {
+        filter: blur(3px);
+      }
       &-name {
         font-size: var(--fs-18);
         font-weight: var(--fw-500);
