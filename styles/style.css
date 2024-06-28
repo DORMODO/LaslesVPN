@@ -771,6 +771,7 @@ body::before {
     transition: var(--animation-timing);
   }
   .header .links {
+    font-weight: var(--fw-700);
     display: none;
   }
   .header .button {
@@ -791,6 +792,19 @@ body::before {
     display: flex;
     top: 10rem;
     left: 10rem;
+    animation: navigation 1s alternate ease-in-out;
+  }
+  @keyframes navigation {
+    0% {
+      opacity: 0;
+      transform: scale(1.2);
+    }
+    50% {
+      filter: blur(1.5px);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
   .header:has(.burger-menu__checkbox:checked) .burger-menu__bar:nth-child(1) {
     transform: translateY(9px) rotate(40deg);
