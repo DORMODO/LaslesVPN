@@ -755,24 +755,24 @@ body::before {
   .header {
     justify-content: space-between;
   }
-  .header .links {
-    display: none;
-  }
-  .header .button {
-    display: none;
-  }
-  .burger-menu {
+  .header .burger-menu {
     display: flex;
     flex-direction: column;
     cursor: pointer;
     gap: 0.6rem;
   }
-  .burger-menu__bar {
+  .header .burger-menu__bar {
     width: 25px;
     height: 3px;
     background-color: #333;
     border-radius: 5rem;
     transition: var(--animation-timing);
+  }
+  .header .links {
+    display: none;
+  }
+  .header .button {
+    display: none;
   }
   .about__image {
     width: 100%;

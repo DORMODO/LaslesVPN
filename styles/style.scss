@@ -858,6 +858,20 @@ body {
   }
   .header {
     justify-content: space-between;
+    .burger-menu {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      gap: 0.6rem;
+
+      &__bar {
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        border-radius: 5rem;
+        transition: var(--animation-timing);
+      }
+    }
     & .links {
       display: none;
     }
@@ -865,20 +879,7 @@ body {
       display: none;
     }
   }
-  .burger-menu {
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    gap: 0.6rem;
 
-    &__bar {
-      width: 25px;
-      height: 3px;
-      background-color: #333;
-      border-radius: 5rem;
-      transition: var(--animation-timing);
-    }
-  }
   .about {
     &__image {
       width: 100%;
