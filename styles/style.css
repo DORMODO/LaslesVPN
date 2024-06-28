@@ -98,7 +98,8 @@ body::before {
   justify-content: space-between;
   align-items: center;
 }
-.header .burger-menu__checkbox {
+.header .burger-menu__checkbox,
+.header .burger-menu {
   display: none;
 }
 .header .logo-content {
@@ -164,7 +165,7 @@ body::before {
   gap: 5rem;
 }
 .about__image {
-  margin-right: -10rem;
+  margin-right: -5rem;
   margin-top: -3rem;
   width: 100%;
 }

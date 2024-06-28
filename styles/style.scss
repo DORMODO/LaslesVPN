@@ -106,7 +106,8 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  & .burger-menu__checkbox {
+  & .burger-menu__checkbox,
+  .burger-menu {
     display: none;
   }
 
@@ -183,7 +184,7 @@ body {
   gap: 5rem;
 
   &__image {
-    margin-right: -10rem;
+    margin-right: -5rem;
     margin-top: -3rem;
     width: 100%;
   }
@@ -866,7 +867,7 @@ body {
     flex-direction: column;
     cursor: pointer;
     gap: 0.6rem;
-    
+
     &__bar {
       width: 25px;
       height: 3px;
@@ -889,7 +890,7 @@ body {
       align-items: center;
     }
   }
-  .header:has(.burger-menu__checkbox:checked) .links{
+  .header:has(.burger-menu__checkbox:checked) .links {
     position: absolute;
     display: flex;
     top: 10rem;
