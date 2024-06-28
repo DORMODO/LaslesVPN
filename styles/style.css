@@ -328,7 +328,7 @@ body::before {
   justify-content: center;
   gap: 5rem;
   margin-top: calc(var(--default-padding) * 2);
-  margin-bottom: 9rem;
+  margin-bottom: 5rem;
 }
 .cards .card {
   display: flex;
@@ -380,7 +380,7 @@ body::before {
 }
 
 .location__description {
-  margin-bottom: 13rem;
+  margin-bottom: 6rem;
 }
 .location .sponsors {
   width: 100%;

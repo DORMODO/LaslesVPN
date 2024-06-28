@@ -367,7 +367,7 @@ body {
   justify-content: center;
   gap: 5rem;
   margin-top: calc(var(--default-padding) * 2);
-  margin-bottom: 9rem;
+  margin-bottom: 5rem;
 
   & .card {
     display: flex;
@@ -426,7 +426,7 @@ body {
 
 .location {
   &__description {
-    margin-bottom: 13rem;
+    margin-bottom: 6rem;
   }
   & .sponsors {
     width: 100%;
