@@ -940,7 +940,7 @@ body {
     }
   }
   body:has(.burger-menu__checkbox:checked) .about,
-  .stats {
+  body:has(.burger-menu__checkbox:checked) .stats {
     filter: blur(1.5px);
   }
   @keyframes navigation {
